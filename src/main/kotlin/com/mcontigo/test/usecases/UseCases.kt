@@ -1,4 +1,7 @@
-package com.mcontigo.test
+package com.mcontigo.test.usecases
+
+import com.mcontigo.test.BTCPrice
+import com.mcontigo.test.FiatType
 
 interface UseCases {
     fun fetchAll(): List<BTCPrice>
